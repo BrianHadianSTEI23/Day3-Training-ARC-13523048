@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <!-- main contaner -->
+        <div id="container">
+            
+            <!-- title -->
+            <div id = "title-and-subtitle">
+                <div id="title">
+                    Radio
+                </div>
+                <div id = "subtitle">
+                    Search music, display, and play all in the same platform.
+                </div>
+                
+                <!-- search box -->
+                <div id = "search-bar">
+                    <input type="text" placeholder="Input your song title here with format &lt;song-title&gt;-&lt;singer&gt;"  id = "input-bar">
+                </div>
+
+                <!-- button for display all music list -->
+                <div id = "display-button-container">
+                    <button type="button" id = "display-button">Display music list</button>
+                </div>
+
+                <!-- button for save music title based on the input -->
+                <div id = "save-button-container">
+                    <button type="button" id = "save-button">Put into music list</button>
+                </div>
+
+                <!-- button for delete music title based on the input -->
+                <div id = "delete-button-container">
+                    <button type="button" id = "delete-button">Delete from music list</button>
+                </div>
+
+                <!-- youtube container -->
+                <div id = "youtube-container"></div>
+                
+                <!-- songs list -->
+                <div id = "songs-list"></div>
+            </div>
+            
+        </div>
+        
+    </main>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
